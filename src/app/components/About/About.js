@@ -60,6 +60,13 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Image
+        className={styles.imgTest}
+        src="/images/icon.svg"
+        alt="imagem decorativa"
+        height={230}
+        width={230}
+      />
     </div>
   )
 }

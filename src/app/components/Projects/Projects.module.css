@@ -1,0 +1,33 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 18px;
+  border-bottom: 1px solid #d7d7d75d;
+
+  position: relative;
+  padding: 2em;
+}
+
+.projects h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 8em;
+  font-weight: 500;
+  color: #74747493;
+
+  position: absolute;
+  top: -118px;
+  left: 0;
+  z-index: -20;
+}
+
+.grid {
+  display: flex;
+
+  flex-direction: column;
+  gap: 2em;
+
+  margin-top: 190px;
+}
