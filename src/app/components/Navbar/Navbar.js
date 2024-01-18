@@ -1,6 +1,4 @@
-'use client'
 import Image from 'next/image';
-import { NavLink } from 'react-router-dom';
 
 import styles from "./Navbar.module.css";
 
@@ -10,7 +8,7 @@ const Navbar = () => {
       <div>
         <Image
           className={styles.brand}
-          src="/logo.svg"
+          src="/images/logo.svg"
           alt="Logo"
           width={180}
           height={37}
@@ -18,7 +16,7 @@ const Navbar = () => {
         />
       </div>
       <div>
-        <ul className={styles.links_list}>
+        <ul className="links_list">
           <li>
             <a href="#">
               Sobre
