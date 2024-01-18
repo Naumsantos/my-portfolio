@@ -7,11 +7,10 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div>
         <Image
-          className={styles.brand}
           src="/images/logo.svg"
           alt="Logo"
-          width={180}
-          height={37}
+          width={200}
+          height={57}
           priority
         />
       </div>
