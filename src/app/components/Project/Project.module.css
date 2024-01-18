@@ -1,0 +1,47 @@
+.grid_card {
+  background-color: rgba(86, 86, 86, 0.351);
+  border: 3px solid #ffd43b;
+  border-radius: 20px;
+  padding: 1em;
+
+  width: 70vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid_card .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.desc .titleCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.desc .titleCard .numProject {
+  font-weight: bold;
+  color: #ffd43b;
+}
+
+.desc .descProject {
+  width: 600px;
+  font-weight: 200;
+}
+
+.desc .stacks {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.grid_card .image_card {
+  border-radius: 18px;
+}

@@ -70,3 +70,8 @@
   border-radius: 8px;
   background-color: transparent;
 }
+
+.imgTest {
+  position: absolute;
+  bottom: 114px;
+}

@@ -1,80 +1,40 @@
-import Image from 'next/image';
 import styles from './Projects.module.css';
+import Project from '../Project/Project.js';
 
 const Projects = () => {
   return (
     <div className={styles.projects}>
       <h2>Projetos</h2>
       <div className={styles.grid}>
-        <div className={styles.grid_card}>
-          <div>
-            <a
-              href="https://github.com/Naumsantos/weather"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                Weather Forecast <span>-&gt;</span>
-              </h3>
-            </a>
-            <p>Projeto de previsão de tempo.</p>
-          </div>
+        <Project
+          numProject="01"
+          linkGithub="https://github.com/Naumsantos/weather"
+          titleProject="Weather Forecast"
+          descProject="O desafio era criar uma página web que fosse responsiva e que contivesse algumas características como exibição de data/hora, cidade, temperatura atual, descrição do tempo, temperatura mínima e máxima, velocidade do vento e umidade, todas essas características foram atendidas com o template que Eu escolhi e que está no Figma."
+          linkImg="/images/imageProjects/weatherForecast.png"
+          titleImg="imagem do aplicatico de previsão do tempo"
+          techs={["Javascript", "HTML", "CSS", "API"]}
+        />
 
-          <Image
-            src="/images/imageProjects/weatherForecast.png"
-            alt='imagem do aplicatico de previsão do tempo'
-            width={400}
-            height={300}
-            className={styles.image_card}
-          />
-        </div>
-        <div className={styles.grid_card}>
-          <div>
-            <a
-              href="https://github.com/Naumsantos/weather"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                Weather Forecast <span>-&gt;</span>
-              </h3>
-            </a>
-            <p>Projeto de previsão de tempo.</p>
-          </div>
+        <Project
+          numProject="02"
+          linkGithub="https://github.com/Naumsantos/formulario-animado---CSS3-JS"
+          titleProject="Formulario animado"
+          descProject="Estudando sobre animações com CSS + JS puro assistindo aos vídeos do canal da Rocketseat, repliquei esse formulário e adicionei algumas alterações."
+          linkImg="/images/imageProjects/formAminated.png"
+          titleImg="imagem do formulário animado"
+          techs={["Javascript", "HTML", "CSS3"]}
+        />
 
-          <Image
-            src="/images/imageProjects/weatherForecast.png"
-            alt='imagem do aplicatico de previsão do tempo'
-            width={400}
-            height={300}
-            className={styles.image_card}
-          />
-        </div>
-        <div className={styles.grid_card}>
-          <div>
-            <a
-              href="https://github.com/Naumsantos/weather"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>
-                Weather Forecast <span>-&gt;</span>
-              </h3>
-            </a>
-            <p>Projeto de previsão de tempo.</p>
-          </div>
-
-          <Image
-            src="/images/imageProjects/weatherForecast.png"
-            alt='imagem do aplicatico de previsão do tempo'
-            width={400}
-            height={300}
-            className={styles.image_card}
-          />
-        </div>
+        <Project
+          numProject="03"
+          linkGithub="https://github.com/Naumsantos/landing_page"
+          titleProject="Landing page de turismo."
+          descProject="Projeto legal criado durante um estudo sobre Flex-box usando CSS puro, repliquei esse projeto e adicionei algumas melhorias."
+          linkImg="/images/imageProjects/landingpage.png"
+          titleImg="imagem do da landing page"
+          techs={["Javascript", "HTML", "CSS3", "Responsividade"]}
+        />
       </div>
     </div>
   )
