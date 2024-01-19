@@ -1,11 +1,11 @@
 import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 import styles from './page.module.css';
 
 export default function Home() {
-  console.log("")
   return (
 
     <main className={styles.main}>
@@ -18,10 +18,15 @@ export default function Home() {
       <section id='projects'>
         <Projects />
       </section>
-      <section id='footer'>
-        Footer
+      <section id='skills'>
+        <Skills />
       </section>
+      <footer>
+        <div>
+          <p>&copy; 2024 Meu portifólio</p>
+          <p>Desenvolvido por: Naum Santos Mourão</p>
+        </div>
+      </footer>
     </main>
-
   )
 }
