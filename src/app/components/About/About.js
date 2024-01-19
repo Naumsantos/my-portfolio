@@ -21,8 +21,9 @@ const About = () => {
           />
           <ul className="links_list">
             <li>
-              <a href="https://www.linkedin.com/in/naum-mourao/">
+              <a href="https://www.linkedin.com/in/naum-mourao/" target="_blank">
                 <Image
+                  className="btnSocial"
                   src="/images/linkedin.svg"
                   alt="Icone Linkedin"
                   height={25}
@@ -31,8 +32,10 @@ const About = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/naum-mourao/">
+
+              <a href="https://www.linkedin.com/in/naum-mourao/" target="_blank">
                 <Image
+                  className="btnSocial"
                   src="/images/github.svg"
                   alt="Icone Github"
                   height={25}
@@ -41,8 +44,9 @@ const About = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/naum_santos/">
+              <a href="https://www.instagram.com/naum_santos/" target="_blank">
                 <Image
+                  className="btnSocial"
                   src="/images/instagram.svg"
                   alt="Icone Instagram"
                   height={25}

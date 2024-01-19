@@ -85,3 +85,23 @@ a:hover {
   color: #fff;
   cursor: pointer;
 }
+
+.btnSocial:hover {
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.36);
+}
+
+/* SKILLS */
+.techs {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.techs .tech {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  font-weight: 200;
+  color: #bbb;
+}
