@@ -1,0 +1,43 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 18px;
+  border-bottom: 1px solid #d7d7d75d;
+
+  position: relative;
+  padding: 2em;
+
+  height: 500px;
+}
+
+.skills .titleSection {
+  display: flex;
+  position: absolute;
+  top: 178px;
+  right: 43px;
+  align-items: end;
+  flex-direction: column-reverse;
+  justify-content: end;
+}
+
+.titleSection h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 8em;
+  font-weight: 500;
+  color: #74747493;
+
+  position: absolute;
+  z-index: -10;
+  margin: 0;
+}
+
+.skills p {
+  font-size: 26px;
+  font-weight: 200;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

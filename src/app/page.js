@@ -22,7 +22,7 @@ export default function Home() {
         <Skills />
       </section>
       <footer>
-        <div>
+        <div class="flex-container footer">
           <p>&copy; 2024 Meu portifólio</p>
           <p>Desenvolvido por: Naum Santos Mourão</p>
         </div>
