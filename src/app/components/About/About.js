@@ -20,7 +20,7 @@ const About = () => {
             height={240}
           />
           <ul className="links_list">
-            <li>
+            <li className={styles.tooltip}>
               <a href="https://www.linkedin.com/in/naum-mourao/" target="_blank">
                 <Image
                   className="btnSocial"
@@ -30,9 +30,10 @@ const About = () => {
                   width={25}
                 />
               </a>
+              <span className={styles.tooltiptext}>Linkedin</span>
             </li>
-            <li>
 
+            <li className={styles.tooltip}>
               <a href="https://www.linkedin.com/in/naum-mourao/" target="_blank">
                 <Image
                   className="btnSocial"
@@ -42,8 +43,10 @@ const About = () => {
                   width={25}
                 />
               </a>
+              <span className={styles.tooltiptext}>Github</span>
             </li>
-            <li>
+
+            <li className={styles.tooltip}>
               <a href="https://www.instagram.com/naum_santos/" target="_blank">
                 <Image
                   className="btnSocial"
@@ -53,6 +56,7 @@ const About = () => {
                   width={25}
                 />
               </a>
+              <span className={styles.tooltiptext}>Instagram</span>
             </li>
           </ul>
         </div>
