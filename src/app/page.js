@@ -2,6 +2,7 @@ import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
+import Footer from './components/Footer/Footer';
 
 import styles from './page.module.css';
 
@@ -21,12 +22,9 @@ export default function Home() {
       <section id='skills'>
         <Skills />
       </section>
-      <footer>
-        <div class="flex-container footer">
-          <p>&copy; 2024 Meu portifólio</p>
-          <p>Desenvolvido por: Naum Santos Mourão</p>
-        </div>
-      </footer>
+      <section>
+        <Footer />
+      </section>
     </main>
   )
 }
