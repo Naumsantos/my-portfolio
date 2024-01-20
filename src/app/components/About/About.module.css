@@ -75,3 +75,30 @@
   position: absolute;
   bottom: 114px;
 }
+
+/* tooltip */
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #333;
+  color: #bbb;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 3;
+  bottom: -64%;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
