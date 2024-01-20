@@ -1,8 +1,5 @@
 import styles from "./About.module.css";
 import Image from 'next/image';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-
 
 const About = () => {
   return (
