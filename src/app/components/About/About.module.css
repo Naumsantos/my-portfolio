@@ -79,7 +79,6 @@
 /* tooltip */
 .tooltip {
   position: relative;
-  /* display: inline-block; */
   cursor: pointer;
   display: flex;
   justify-content: center;
