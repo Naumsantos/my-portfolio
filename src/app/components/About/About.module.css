@@ -19,15 +19,17 @@
   color: #74747493;
 
   position: absolute;
-  top: 76px;
+  top: 0;
   right: 240px;
 }
 
 .profile {
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   height: 200px;
+  width: 80%;
 }
 
 .profile .image_links {
@@ -55,6 +57,15 @@
   margin: 0;
 }
 
+.description p {
+  line-height: 1.4em;
+  font-weight: 200;
+}
+
+.description span {
+  font-weight: bold;
+}
+
 .unemployed {
   display: flex;
   align-items: center;
@@ -67,6 +78,10 @@
   border: 1px solid #d7d7d75d;
   border-radius: 8px;
   background-color: transparent;
+}
+
+.unemployed:hover {
+  border: 1px solid #ffd43b;
 }
 
 .imgIcon {
