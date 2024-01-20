@@ -100,4 +100,10 @@ a:hover {
   gap: 10px;
   font-weight: 200;
   color: #bbb;
+  cursor: pointer;
+}
+
+.techs:hover .tech:not(:hover) {
+  opacity: 0.3;
+  transform: 0.4ms;
 }
