@@ -18,9 +18,8 @@
   position: absolute;
   top: 178px;
   right: 43px;
-  align-items: end;
+  align-items: flex-end;
   flex-direction: column-reverse;
-  justify-content: end;
 }
 
 .titleSection h2 {
