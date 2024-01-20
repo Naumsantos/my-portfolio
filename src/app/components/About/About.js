@@ -62,9 +62,13 @@ const About = () => {
         </div>
         <div className={styles.description}>
           <h3>Naum Santos Mourão</h3>
-          <p>Sou <b>Desenvolvedor Frontend Jr</b> e fascinado em transformar ideias em códigos.</p>
+          <p>
+            Sou <span>Desenvolvedor Frontend Jr</span> e fascinado em transformar ideias em códigos.
+            Estou em busca de iniciar carreira na área de tecnologia, sou Baicharel em Ciência da Computação. Desenvolvo projetos utilizando <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> e <span>ReactJS</span>. Além disso, busco aprimorar minhas habilidades por meio de cursos online intensivos, com foco em <span>Front End</span>, <span>UX/UI Design</span> e <span>Acessibilidade</span>.
+          </p>
           <div >
-            <a className={styles.unemployed} href={`${process.env.PUBLIC_URL}/public/Curriculum_NaumSantosMourao.pdf`} download="Naum Santos Mourão"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg>  Disponível para  contratação </a>
+            <a className={styles.unemployed} href="mailto:naum_santos@hotmail.com">
+              &#64;  Disponível para  contratação </a>
           </div>
         </div>
       </div>
