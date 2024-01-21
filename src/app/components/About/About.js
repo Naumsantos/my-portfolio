@@ -31,7 +31,7 @@ const About = () => {
             </li>
 
             <li className={styles.tooltip}>
-              <a href="https://www.linkedin.com/in/naum-mourao/" target="_blank">
+              <a href="https://github.com/Naumsantos/" target="_blank">
                 <Image
                   className="btnSocial"
                   src="/images/github.svg"
