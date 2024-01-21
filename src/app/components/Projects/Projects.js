@@ -24,6 +24,7 @@ const Projects = () => {
           linkImg="/images/imageProjects/formAminated.png"
           titleImg="imagem do formulário animado"
           techs={["Javascript", "HTML", "CSS3"]}
+          linkSite="https://naumsantos.github.io/formulario-animado/"
         />
 
         <Project
@@ -34,6 +35,7 @@ const Projects = () => {
           linkImg="/images/imageProjects/landingpage.png"
           titleImg="imagem do da landing page"
           techs={["Javascript", "HTML", "CSS3", "Responsividade"]}
+          linkSite="https://naumsantos.github.io/landing_page/"
         />
       </div>
     </div>

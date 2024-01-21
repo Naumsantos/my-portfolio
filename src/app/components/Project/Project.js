@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from './Project.module.css';
 
 
-const Project = ({ numProject, linkGithub, titleProject, descProject, linkImg, titleImg, techs }) => {
+const Project = ({ numProject, linkGithub, titleProject, descProject, linkImg, titleImg, techs, linkSite }) => {
   return (
     <div className={styles.grid_card}>
       <div className={styles.desc}>
@@ -30,7 +30,7 @@ const Project = ({ numProject, linkGithub, titleProject, descProject, linkImg, t
           >Veja no Github</a>
           <a
             className='btn'
-            href='#'
+            href={linkSite}
             target="_blank"
             rel="noopener noreferrer"
           >
