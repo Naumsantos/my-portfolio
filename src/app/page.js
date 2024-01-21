@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
-import TopButton from './components/TopButton/TopButton.js';
+import TopButton from './components/Topbutton/TopButton';
 
 import styles from './page.module.css';
 
