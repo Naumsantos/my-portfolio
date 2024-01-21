@@ -14,6 +14,7 @@ const Projects = () => {
           linkImg="/images/imageProjects/weatherForecast.png"
           titleImg="imagem do aplicatico de previsão do tempo"
           techs={["Javascript", "HTML", "CSS", "API"]}
+          linkSite="https://appforecastweather.vercel.app/"
         />
 
         <Project
