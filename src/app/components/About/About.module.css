@@ -3,9 +3,7 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  /* height: 600px; */
 
-  /* padding-left: 5em; */
   padding: 8em 5em;
 
   border-bottom: 1px solid #d7d7d75d;
@@ -116,4 +114,26 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .about h2 {
+    font-size: 3em;
+  }
+  .profile {
+    font-size: 0.8em;
+    flex-direction: column;
+    margin: 1em;
+  }
+
+  .profile .description {
+    width: 65vw;
+    margin: 0;
+  }
+
+  .imgIcon {
+    height: 200px;
+    width: 200px;
+    bottom: -75px;
+  }
 }

@@ -4,7 +4,7 @@ import Project from '../Project/Project.js';
 const Projects = () => {
   return (
     <div className={styles.projects}>
-      <h2>Projetos</h2>
+      <h2>PROJETOS</h2>
       <div className={styles.grid}>
         <Project
           numProject="01"

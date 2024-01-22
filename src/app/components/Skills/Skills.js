@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className={styles.skills}>
       <div className={styles.titleSection}>
-        <h2>Skills</h2>
+        <h2>SKILLS</h2>
       </div>
       <div className='techs'>
         <div className='tech'>

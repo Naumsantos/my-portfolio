@@ -30,3 +30,15 @@
 
   margin-top: 190px;
 }
+
+@media (max-width: 900px) {
+  .projects h2 {
+    font-size: 3em;
+    top: -37px;
+    z-index: -10;
+  }
+
+  .grid {
+    margin-top: 100px;
+  }
+}

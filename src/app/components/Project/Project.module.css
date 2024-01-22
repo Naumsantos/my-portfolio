@@ -33,7 +33,7 @@
 }
 
 .desc .descProject {
-  width: 600px;
+  /* width: 50vw; */
   font-weight: 200;
 }
 
@@ -44,4 +44,38 @@
 
 .grid_card .image_card {
   border-radius: 18px;
+}
+
+/* responsividade */
+@media screen and (max-width: 900px) {
+  .grid_card {
+    flex-direction: column-reverse;
+    padding: 1em 1em;
+    margin: 0 0.8em;
+  }
+
+  .grid_card .desc,
+  .image_card,
+  .descProject {
+    width: 70vw;
+  }
+
+  .grid_card .desc {
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .desc .titleCard {
+    font-size: 1.3em;
+  }
+
+  .desc .stacks {
+    font-weight: 200;
+  }
+
+  .grid_card .image_card {
+    margin-bottom: 1em;
+    height: 200px;
+    object-fit: cover;
+  }
 }

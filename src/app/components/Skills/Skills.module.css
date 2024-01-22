@@ -9,7 +9,7 @@
   position: relative;
   padding: 2em;
 
-  height: 500px;
+  height: 60vh;
 }
 
 .skills .titleSection {
@@ -37,4 +37,19 @@
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .skills {
+    height: 70vh;
+  }
+
+  .skills .titleSection {
+    top: 74px;
+    right: 6px;
+  }
+
+  .titleSection h2 {
+    font-size: 3em;
+  }
 }

@@ -75,7 +75,7 @@ a:hover {
   color: #fff;
   text-align: center;
   border-radius: 8px;
-  width: 120px;
+
   font-weight: lighter;
   border: 1px solid #ffd43b;
   padding: 10px 15px;
@@ -107,4 +107,47 @@ a:hover {
 
 .techs:hover .tech:not(:hover) {
   opacity: 0.3;
+}
+
+@media screen and (max-width: 600px) {
+  .buttons {
+    font-size: 1em;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+  }
+
+  .buttons .btn1 {
+    margin: 0;
+  }
+
+  .techs .tech img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h2 {
+    font-size: 4em;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .techs {
+    gap: 30px;
+    height: 56vh;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    margin-top: 20%;
+    margin-bottom: 31px;
+  }
+
+  .techs .tech img {
+    height: 70px;
+    width: 70px;
+  }
 }

@@ -5,3 +5,13 @@
   padding: 1.5em 2em;
   border-bottom: 1px solid #d7d7d75d;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+}
