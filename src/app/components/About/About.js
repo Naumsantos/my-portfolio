@@ -61,7 +61,7 @@ const About = () => {
           <h3>Naum Santos Mourão</h3>
           <p>
             Sou <span>Desenvolvedor Frontend Jr</span> e fascinado em transformar ideias em códigos.
-            Estou em busca de iniciar carreira na área de tecnologia, sou Baicharel em Ciência da Computação. Desenvolvo projetos utilizando <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> e <span>ReactJS</span>. Além disso, busco aprimorar minhas habilidades por meio de cursos online intensivos, com foco em <span>Front End</span>, <span>UX/UI Design</span> e <span>Acessibilidade</span>.
+            Estou em busca de iniciar carreira na área de tecnologia, sou Bacharel em Ciência da Computação. Desenvolvo projetos utilizando <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> e <span>ReactJS</span>. Além disso, busco aprimorar minhas habilidades por meio de cursos online intensivos, com foco em <span>Front End</span>, <span>UX/UI Design</span> e <span>Acessibilidade</span>.
           </p>
           <div >
             <a className={styles.unemployed} href="mailto:naum_santos@hotmail.com">

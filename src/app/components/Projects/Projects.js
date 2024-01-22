@@ -20,7 +20,7 @@ const Projects = () => {
         <Project
           numProject="02"
           linkGithub="https://github.com/Naumsantos/formulario-animado---CSS3-JS"
-          titleProject="Formulario animado"
+          titleProject="Formulário animado"
           descProject="Estudando sobre animações com CSS + JS puro assistindo aos vídeos do canal da Rocketseat, repliquei esse formulário e adicionei algumas alterações."
           linkImg="/images/imageProjects/formAminated.png"
           titleImg="imagem do formulário animado"

@@ -56,12 +56,10 @@
   cursor: pointer;
 }
 
-.skills .techs:hover .tech:not(:hover) {
+.techs:hover > div:not(:hover) {
   opacity: 0.3;
 }
 
-@media screen and (max-width: 900px) {
-}
 @media screen and (max-width: 900px) {
   .skills {
     height: 70vh;
