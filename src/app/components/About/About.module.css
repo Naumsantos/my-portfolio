@@ -3,13 +3,14 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  height: 600px;
+  /* height: 600px; */
 
-  padding-left: 5em;
+  /* padding-left: 5em; */
+  padding: 8em 5em;
 
   border-bottom: 1px solid #d7d7d75d;
 
-  font-size: 18px;
+  position: relative;
 }
 
 .about h2 {
@@ -20,15 +21,15 @@
 
   position: absolute;
   top: 0;
-  right: 240px;
+  right: 0;
+
+  margin: 0;
 }
 
 .profile {
   display: flex;
-  flex-direction: row;
   align-items: center;
 
-  height: 200px;
   width: 80%;
 }
 
@@ -49,11 +50,11 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  padding: 0 2em;
+  margin-left: 4em;
 }
 
 .profile .description h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -86,7 +87,8 @@
 
 .imgIcon {
   position: absolute;
-  bottom: 114px;
+  bottom: -95px;
+  right: 0;
 }
 
 /* tooltip */

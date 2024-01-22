@@ -19,6 +19,8 @@ body {
     #282a36
   );
 
+  font-size: 1em;
+
   font-family: "Lexend", sans-serif;
   font-family: "Montserrat", sans-serif;
   padding: 0;
@@ -105,5 +107,4 @@ a:hover {
 
 .techs:hover .tech:not(:hover) {
   opacity: 0.3;
-  transform: 0.4ms;
 }
