@@ -7,8 +7,8 @@ const Skills = () => {
       <div className={styles.titleSection}>
         <h2>SKILLS</h2>
       </div>
-      <div className='techs'>
-        <div className='tech'>
+      <div className={styles.techs}>
+        <div>
           <Image
             src="/images/techs/css3.svg"
             alt="Logo CSS3"
@@ -17,7 +17,7 @@ const Skills = () => {
           />
           <span>CSS3</span>
         </div>
-        <div className='tech'>
+        <div>
           <Image
             src="/images/techs/html.svg"
             alt="Logo HTML"
@@ -26,7 +26,7 @@ const Skills = () => {
           />
           <span>HTML</span>
         </div>
-        <div className='tech'>
+        <div>
           <Image
             src="/images/techs/javascript.svg"
             alt="Logo Javascript"
@@ -35,7 +35,7 @@ const Skills = () => {
           />
           <span>Javascript</span>
         </div>
-        <div className='tech'>
+        <div>
           <Image
             src="/images/techs/nextjs.svg"
             alt="Logo NextJS"
@@ -44,7 +44,7 @@ const Skills = () => {
           />
           <span>NextJS</span>
         </div>
-        <div className='tech'>
+        <div>
           <Image
             src="/images/techs/react.svg"
             alt="Logo ReactJS"

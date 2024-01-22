@@ -88,42 +88,15 @@ a:hover {
   cursor: pointer;
 }
 
-/* SKILLS */
-.techs {
-  display: flex;
-  justify-content: center;
-  gap: 160px;
-}
-
-.techs .tech {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 10px;
-  font-weight: 200;
-  color: #bbb;
-  cursor: pointer;
-}
-
-.techs:hover .tech:not(:hover) {
-  opacity: 0.3;
-}
-
 @media screen and (max-width: 600px) {
   .buttons {
     font-size: 1em;
     flex-direction: column;
-    /* align-items: center; */
     gap: 10px;
   }
 
   .buttons .btn1 {
     margin: 0;
-  }
-
-  .techs .tech img {
-    height: 50px;
-    width: 50px;
   }
 }
 
@@ -134,20 +107,5 @@ a:hover {
   .buttons {
     display: flex;
     justify-content: center;
-  }
-
-  .techs {
-    gap: 30px;
-    height: 56vh;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
-    margin-top: 20%;
-    margin-bottom: 31px;
-  }
-
-  .techs .tech img {
-    height: 70px;
-    width: 70px;
   }
 }
